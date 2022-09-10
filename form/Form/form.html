@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <title>com</title>
+  </head>
+  <body>
+    <form class="form">
+      <fieldset style="width: 800px">
+        <legend>form</legend>
+        <header>
+          <h2>Dance Registration</h2>
+          <p>
+            Fill the registration form below keenly to enter the dancing
+            competition.
+          </p>
+        </header>
+        <hr />
+        <div class="form-line">
+          <b class="form-lable-left">Name</b>
+          <input type="text" />
+          <input type="text" /> <br />
+          <label class="lable-margin">First Name</label
+          ><label class="input-lable-2"> Last Name</label>
+        </div>
+        <div class="form-line">
+          <b class="form-lable-left">E-mail</b>
+          <input
+            style="width: 337px"
+            type="email"
+            placeholder="ex:myname@example.com"
+          /><br />
+        </div>
+        <div class="form-line">
+          <b class="form-lable-left">Phone Number</b>
+          <input type="text" /> - <input type="number" /><br />
+          <label class="lable-margin">Area Code</label
+          ><label class="input-lable-2" style="margin-left: 128px"
+            >Phone Number</label
+          ><br />
+        </div>
+        <div class="form-line">
+          <b class="form-lable-left">Gender</b>
+          <input type="radio" name="Radio" /><label>Male</label>
+          <input type="radio" name="Radio" style="margin-left: 128px" /><label
+            >Female</label
+          ><br />
+        </div>
+        <div class="form-line">
+          <b class="form-lable-left">Address</b>
+          <input type="text" />
+          <br />
+          <label class="lable-margin">Street Address</label>
+          <br /><br />
+          <input type="text" style="margin-left: 148px" /><br />
+          <label class="lable-margin">Street Address Line 2</label>
+          <br /><br />
+          <input type="text" style="margin-left: 148px" />
+          <input type="text" /><br />
+          <label class="lable-margin">City</label>
+          <label class="input-lable-2" style="margin-left: 147px"
+            >State / Province</label
+          ><br /><br />
+          <input type="text" style="margin-left: 148px" />
+          <select name="country" style="width: 170px">
+            <option>Please Select</option>
+            <option>India</option>
+            <option>USA</option>
+            <option>Pakistan</option>
+            <option>Bangladesh</option>
+            <option>Shri Lanka</option>
+            <option>Afganistan</option>
+            <option>China</option>
+            <option>Russia</option></select
+          ><br />
+          <label class="lable-margin">Postal / Zip Code</label>
+          <label style="color: gray; margin-left: 82px; font-size: 13px"
+            >Country</label
+          >
+        </div>
+        <div class="form-line">
+          <b class="form-lable-left">Types Of Dance</b>
+          <input type="radio" name="Dance" />
+          <label>Salsa</label><br /><br />
+          <input class="lable-margin" type="radio" name="Dance" />
+          <label>Bachata</label><br /><br />
+          <input class="lable-margin" type="radio" name="Dance" />
+          <label>Tango</label><br /><br />
+          <input class="lable-margin" type="radio" name="Dance" />
+          <label>Hip Hop</label><br /><br />
+          <input class="lable-margin" type="radio" name="Dance" />
+          <label>Club</label><br /><br />
+          <input class="lable-margin" type="radio" name="Dance" />
+          <input type="text" placeholder="Other" />
+        </div>
+        <div class="form-line">
+          <b class="form-lable-left">Start Day & Time</b>
+          <input class="date-input" type="text" /> -
+          <input class="date-input" type="text" /> -
+          <input class="date-input" type="text" />
+          <img src="../Form/Images/calendar.png" alt="" />
+          <select name="Hour" style="width: 45px">
+            <option></option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+          </select>
+          :
+          <select name="Minuts" style="width: 45px">
+            <option></option>
+            <option>00</option>
+            <option>10</option>
+            <option>20</option>
+            <option>40</option>
+            <option>50</option>
+          </select>
+          <select name="am-pm">
+            <option>AM</option>
+            <option>PM</option></select
+          ><br />
+          <label class="date-lable" style="margin-left: 150px">Month</label>
+          <label class="date-lable" style="margin-left: 48px">Day</label>
+          <label class="date-lable" style="margin-left: 61px">Year</label>
+          <label class="date-lable" style="margin-left: 67px">Hour</label>
+          <label class="date-lable" style="margin-left: 27px">Minuts</label>
+        </div>
+
+        <b class="form-lable-left form-line">Comments</b>
+        <aside style="margin-left: 147px; margin-top: -25px">
+          <textarea name="comments" cols="30" rows="4"></textarea>
+        </aside>
+        <div class="form-line">
+          <button style="margin-top: 30px; margin-left: 210px">Submit</button>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
